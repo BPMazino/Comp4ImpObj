@@ -1,0 +1,11 @@
+
+function main() {
+  var p;
+  var c;
+  
+  p = alloc((8 * 4));
+  c = sum(p, 48);
+  putchar(c);
+}
+
+
